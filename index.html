@@ -1,0 +1,321 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment2</title>
+
+    <style>
+        /* Defines styles for the reviews container */
+        .reviews-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        /* Define styles for individual review items */
+        .review-item {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        /* Defines for review images */
+        .review-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            /* object-fit: cover;
+            margin: 0 auto 10px; */
+        }
+
+        /* Defines styles for review text */
+        .review-text {
+            font-size: 16px;
+            line-height: 1.4;
+            margin-bottom: 10px;
+        }
+
+        /* Defines styles for flag icon */
+        .flag-icon {
+            font-size: 24px;
+            color: #f00; /* Change the color to your desired flag color */
+        }
+
+        /* Footer Styles */
+        footer {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Logo Styles */
+        .footer-logo {
+            width: 80px;
+            height: 80px;
+            margin-top: 40px;
+        }
+
+        /* Social Media Icons Styles */
+        .social-media {
+            margin-top: 20px;
+        }
+
+        .social-media a {
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 24px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Lists Styles */
+        .footer-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px;
+        }
+
+        .footer-list li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <!-- Logo -->
+        <div class="navbar-logo">
+            <img src="/images/flight.png" width="40px" alt="Logo"> Find Flights
+            <img src="/images/stay.png" width="40px" alt="">Find stays
+            <img src="/images/" alt="">
+            <img src="/images/favorite.png" width="20px" alt="">Favorites <span></span>
+            <img src="/images/review.jpg" width="40px" alt="">John D.
+        </div>
+
+    </div>
+
+    <div>
+        <div>Turkey >taleblui>CVK Park Bosphorus Hotel Istanbul</div>
+        <div>CVK Park Bosphorus Hotel Istanbul <img src="/images/star.jpg" width="80px" alt="">Five star hotel
+            <span>$240</span></div>
+        <div><img src="/images/location.png" width="20px" alt="">Gümüşsuyu, İnönü Cd. No: 8, 34437 Beyoğlu/İstanbul, Türkiye
+        </div>
+        <div><span>4.1</span> <strong>Very Good</strong><span>271 reviews</span></div>
+    </div>
+
+    <div>
+        <img src="/images/hote1.jpg" alt="">
+        <img src="/images/hote2.jpg" alt="">
+        <img src="/images/hote3.jpg" alt="">
+        <img src="/images/hotel4.jpg" alt="">
+        <img src="/images/hotel5.jpg" alt="">
+    </div>
+
+    <hr>
+    <div>
+        <h1>Overview</h1>
+        <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia fuga quibusdam odio qui eveniet,
+            laboriosam, vel perferendis veniam ex facere magni eligendi odit aperiam modi, soluta quaerat nostrum
+            possimus quos?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet veritatis ducimus reprehenderit eaque!
+            Pariatur voluptatum voluptas itaque incidunt veniam ipsa qui iure fugit, exercitationem, maxime dolorem
+            quidem. Laborum, at? Laboriosam!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis esse ab exercitationem possimus at
+            suscipit repellat minus incidunt vel. Sint magnam quo ab. Iure quae debitis repellat numquam? Aut, sequi!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat doloribus maxime sed, eos sint inventore aut
+            voluptatum iste perferendis ducimus amet accusamus laboriosam, veritatis voluptas molestias eligendi! Nam,
+            praesentium neque?
+        </small>
+        <div>
+            <img src="/icons/Star.svg" alt="">
+        </div>
+    </div>
+    <hr>
+    <div>
+        <h1>Available Rooms</h1>
+        <div>
+            <div>
+                <img src="/images/hote1.jpg" width="40" height="40" alt=""> <span>Super Delux Room 1 double bed
+                    or 2 twin beds</span> <span>$240</span> <button>Book Now</button>
+            </div>
+            <div>
+                <img src="/images/hote2.jpg" width="40" height="40" alt=""> <span>Super Delux Room 1 double bed
+                    or 2 twin beds</span> <span>$240</span> <button>Book Now</button>
+            </div>
+            <div>
+                <img src="/images/hote3.jpg" width="40" height="40" alt=""> <span>Super Delux Room 1 double bed
+                    or 2 twin beds</span> <span>$240</span> <button>Book Now</button>
+            </div>
+            <div>
+                <img src="/images/hotel4.jpg" width="40" height="40" alt=""> <span>Super Delux Room 1 double bed
+                    or 2 twin beds</span> <span>$240</span> <button>Book Now</button>
+            </div>
+            <div>
+                <img src="/images/hotel5.jpg" width="40" height="40" alt=""> <span>Super Delux Room 1 double bed
+                    or 2 twin beds</span> <span>$240</span> <button>Book Now</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <div>
+            <h1>Location Map</h1> <button>View on google maps</button>
+        </div>
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.507214205923!2d28.984884175198715!3d41.036035917716525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab764cd5981a1%3A0xb1067fbfeb23d92d!2zR8O8bcO8xZ9zdXl1LCDEsG7Dtm7DvCBDZC4gTm86OCwgMzQ0MzcgQmV5b8SfbHUvxLBzdGFuYnVsLCBUw7xya2l5ZQ!5e0!3m2!1sen!2sin!4v1695667781757!5m2!1sen!2sin"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <h1>Amenities</h1>
+        <div class="container hotel_amenities_wrap" style="display: flex;">
+            <ul>
+              <li>
+              <p><span class="hotel_amenitie_icon"><i class="fa fa-asterisk"></i></span> <span class="hotel_amenitie_name"> Free Parking </span></p>
+              </li>
+              <li>
+              <p><span class="hotel_amenitie_icon"><i class="fa fa-asterisk"></i></span> <span class="hotel_amenitie_name"> Restaurant </span></p>
+                </li>
+              <li>
+              <p><span class="hotel_amenitie_icon"><i class="fa fa-asterisk"></i></span> <span class="hotel_amenitie_name"> Complimentary breakfast </span></p>
+                </li>
+              <li>
+              <p><span class="hotel_amenitie_icon"><i class="fa fa-asterisk"></i></span> <span class="hotel_amenitie_name"> Swimming Pool </span></p>
+                </li>
+              <li>
+              <p><span class="hotel_amenitie_icon"><i class="fa fa-asterisk"></i></span> <span class="hotel_amenitie_name"> Laundry service </span></p>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <p><span class="hotel_amenitie_icon"><i class="fa fa-asterisk"></i></span> <span class="hotel_amenitie_name"> 24-hour room service </span></p>
+                      </li>
+                    <li>
+                    <p><span class="hotel_amenitie_icon"><i class="fa fa-asterisk"></i></span> <span class="hotel_amenitie_name"> Daily housekeeping </span></p>
+                      </li>
+                    <li>
+                    <p><span class="hotel_amenitie_icon"><i class="fa fa-asterisk"></i></span> <span class="hotel_amenitie_name"> Business Center </span></p>
+                      </li>
+                    <li>
+                    <p><span class="hotel_amenitie_icon"><i class="fa fa-asterisk"></i></span> <span class="hotel_amenitie_name"> Safety Lockers </span></p>
+                      </li>
+                    <li>
+                    <p><span class="hotel_amenitie_icon"><i class="fa fa-asterisk"></i></span> <span class="hotel_amenitie_name"> Fully air-conditioned </span></p>
+                      </li>
+            </ul>
+          </div>
+    </div>
+    <hr>
+
+    <div class="reviews-container">
+        <div>
+            <h4>Reviews</h4> <button>Give your reviews</button>
+        </div>
+        <!-- Review 1 -->
+        <div class="review-item">
+            <img src="/images/review.jpg" alt="Reviewer 1" class="review-image">
+            <p class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, unde quidem. Distinctio sed temporibus quas sunt maxime iure, quidem repellat laudantium nesciunt blanditiis, nemo labore! Sunt molestiae tempore minus laudantium?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt aut provident porro vel, omnis veniam nemo. Provident ipsam esse, laudantium blanditiis nam fugit officia libero unde dolor eos voluptatibus perspiciatis?
+            </p>
+            <span class="flag-icon">🚩</span>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="review-item">
+            <img src="/images/review.jpg" alt="Reviewer 2" class="review-image">
+            <p class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, unde quidem. Distinctio sed temporibus quas sunt maxime iure, quidem repellat laudantium nesciunt blanditiis, nemo labore! Sunt molestiae tempore minus laudantium?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt aut provident porro vel, omnis veniam nemo. Provident ipsam esse, laudantium blanditiis nam fugit officia libero unde dolor eos voluptatibus perspiciatis?</p>
+            <span class="flag-icon">🚩</span>
+        </div>
+
+        <div class="review-item">
+            <img src="/images/review.jpg" alt="Reviewer 1" class="review-image">
+            <p class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, unde quidem. Distinctio sed temporibus quas sunt maxime iure, quidem repellat laudantium nesciunt blanditiis, nemo labore! Sunt molestiae tempore minus laudantium?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt aut provident porro vel, omnis veniam nemo. Provident ipsam esse, laudantium blanditiis nam fugit officia libero unde dolor eos voluptatibus perspiciatis?
+            </p>
+            <span class="flag-icon">🚩</span>
+        </div>
+        <div class="review-item">
+            <img src="images/review.jpg" alt="Reviewer 1" class="review-image">
+            <p class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, unde quidem. Distinctio sed temporibus quas sunt maxime iure, quidem repellat laudantium nesciunt blanditiis, nemo labore! Sunt molestiae tempore minus laudantium?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt aut provident porro vel, omnis veniam nemo. Provident ipsam esse, laudantium blanditiis nam fugit officia libero unde dolor eos voluptatibus perspiciatis?
+            </p>
+            <span class="flag-icon">🚩</span>
+        </div>
+        <div class="review-item">
+            <img src="/images/review.jpg" alt="Reviewer 1" class="review-image">
+            <p class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, unde quidem. Distinctio sed temporibus quas sunt maxime iure, quidem repellat laudantium nesciunt blanditiis, nemo labore! Sunt molestiae tempore minus laudantium?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt aut provident porro vel, omnis veniam nemo. Provident ipsam esse, laudantium blanditiis nam fugit officia libero unde dolor eos voluptatibus perspiciatis?
+            </p>
+            <span class="flag-icon">🚩</span>
+        </div>
+    </div>
+
+    <div>
+        <h1>Subscribe Newsletter</h1>
+        <h4>The Travel</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+        <form action="">
+            <input type="email" placeholder="Your email address" required> <button>Subscribe</button>
+        </form>
+    </div>
+
+    <footer>        
+        <div>
+            <img src="/images/logo.png" alt="Logo" class="footer-logo">
+            <div class="social-media"> 
+                <img src="/images/social.png" width="80px" alt="">
+            <!-- <a href="#"><img src="./assets/icons/Alarm.svg" alt="Facebook"></a>
+            <a href="#"><img src="twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram.png" alt="Instagram"></a> -->
+        </div>
+        </div>
+        <ul class="footer-list">
+            <h4>Our Destinations</h4>
+            <li><a href="#">Canada</a></li>
+            <li><a href="#">Australia</a></li>
+            <li><a href="#">UK</a></li>
+            
+        </ul>
+        <ul class="footer-list">
+            <h4>Our Activities</h4>
+            <li><a href="#">Northen Lights</a></li>
+            <li><a href="#">Multi-Activities</a></li>           
+            
+        </ul>
+        <ul class="footer-list">
+            <h4>Travel Blogs</h4>
+            <li><a href="#">Travel Guide</a></li>
+            <li><a href="#">Peru Travel Guide</a></li>           
+            
+        </ul>
+        <ul class="footer-list">
+            <h4>About Us</h4>
+            <li><a href="#">About us 1</a></li>
+            <li><a href="#">Work With us</a></li>           
+            
+        </ul>
+        <ul class="footer-list">
+            <h4>Contact Us</h4>
+            <li><a href="#">Address1</a></li>
+            <li><a href="#">Address2</a></li>
+            
+            
+        </ul>
+    </footer>
+</body>
+
+</html>
